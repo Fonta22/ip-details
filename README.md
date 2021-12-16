@@ -7,7 +7,7 @@ To use this program, run the **main** Batch file, entering an **IPv4** address a
 $ ip 1.1.1.1
 ```
 
-You can also add the `--save` or `-s` flag, to save the output to a file. The file will be named `details.log`, and will be stored at the root directory of the program (`./details.log`).
+You can also add the `--save` or `-s` flag, to save the output to a file. The file will be named `details.log`, and will be stored inside the `saves` directory of the program (`saves/details.log`).
 ```
 $ ip 1.1.1.1 --save
 ```
@@ -44,7 +44,7 @@ POSTAL : 33132
 TIMEZONE : America/New_York
 MAP : https://maps.google.com/maps/search/25.7867,-80.1800
 
-Data saved to details.log
+Data saved to saves/details.log
 ```
 `details.log` file:
 

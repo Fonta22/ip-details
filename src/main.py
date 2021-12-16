@@ -1,6 +1,6 @@
 from requests import get
 from sys import argv
-from save import save, name
+from save import save, name, folder
 
 if argv[1] == '-s' or argv[1] == '--save':
     flag = True
@@ -57,9 +57,11 @@ except:
 
 print(" ")
 
+save(data)
+
 try:
     if argv[2] == '-s' or argv[2] == '--save' or flag == True:
         save(data)
-        print(f'Data saved to {name}\n')
+        print(f'Data saved to {folder}/{name}\n')
 except:
     exit()
