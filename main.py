@@ -16,14 +16,6 @@ else:
         print("\nEnter an IPv4 address\n")
         exit()
 
-"""
-try:
-    ip = argv[1]
-except:
-    print("\nEnter an IPv4 address\n")
-    exit()
-"""
-
 def getDetails():
     response = get(f'https://ipinfo.io/{ip}/json', verify=True)
 
