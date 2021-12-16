@@ -53,4 +53,4 @@ Data saved to saves/details.log
 ## Requirements
 [**Python**](https://www.python.org/) programming language
 
-[**Requests**](https://pypi.org/project/requests/) python library
+[**Requests**](https://pypi.org/project/requests/) python library (`pip install requests`)
