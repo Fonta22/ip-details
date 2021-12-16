@@ -47,6 +47,7 @@ MAP : https://maps.google.com/maps/search/25.7867,-80.1800
 Data saved to details.log
 ```
 `details.log` file:
+
 ![image](https://user-images.githubusercontent.com/61181201/146408576-b9319a15-b181-4766-b3a2-95c4aba00365.png)
 
 ## Requirements
