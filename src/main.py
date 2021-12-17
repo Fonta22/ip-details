@@ -2,19 +2,15 @@ from requests import get
 from sys import argv
 from save import save, name, folder
 
-if argv[1] == '-s' or argv[1] == '--save':
-    flag = True
-    try:
+try:
+    if argv[1] == '-s' or argv[1] == '--save':
+        flag = True
         ip = argv[2]
-    except:
-        print("\nEnter an IPv4 address\n")
-        exit()
-else:
-    try:
+    else:
         ip = argv[1]
-    except:
-        print("\nEnter an IPv4 address\n")
-        exit()
+except:
+    print("\nEnter an IPv4 address\n")
+    exit()
 
 def getDetails():
     response = get(f'https://ipinfo.io/{ip}/json', verify=True)
