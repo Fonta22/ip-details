@@ -2,7 +2,7 @@
 This is a program that shows all the details of the given IP address. Build with **Python** and [ipinfo.io API](https://ipinfo.io/developers)
 
 ## Usage
-To use this program, run the **main** Batch file, entering an **IPv4** address as argument.
+To use this program, run the **main** Batch or Shell file, entering an **IPv4** address as argument.
 ```
 $ ip 1.1.1.1
 ```
