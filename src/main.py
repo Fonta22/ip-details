@@ -1,6 +1,9 @@
 from requests import get
-from sys import argv
+from sys import argv, version
 from save import save, name, folder
+
+if not version.startswith('3'):
+    print('You need Python 3 to use this software.')
 
 try:
     if argv[1] == '-s' or argv[1] == '--save':
